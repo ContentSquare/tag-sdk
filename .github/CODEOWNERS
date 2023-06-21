@@ -1,0 +1,25 @@
+# CODEOWNERS documentation : https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners
+
+# ==============
+# Platform stuff
+# ==============
+# !!! Always keep it on the last lines of the CODEOWNERS file !!!
+
+# Deployfile gives rights to modify productions resources
+/Deployfile @ContentSquare/Platform
+
+# Jenkinsfile has access to secrets and grants access to AWS resources
+/Jenkinsfile @ContentSquare/Platform
+
+# Dockerfile describes the images that will be put into production
+Dockerfile* @ContentSquare/Platform
+
+# .github controls CODEOWNERS
+/.github/CODEOWNERS @ContentSquare/Platform
+
+# .infra describes the production resources
+.infra/ @ContentSquare/Platform
+
+# ==============
+# Platform stuff
+# ==============
