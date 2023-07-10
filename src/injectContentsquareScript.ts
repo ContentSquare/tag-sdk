@@ -4,7 +4,7 @@ type ScriptOptions = {
 
 /**
  * Appends the contentsquare script to document.head
- * @param scriptOptions.clientId - the client id in the form of f6f72d509afc7 - mandatory
+ * @param scriptOptions.clientId - the client id in the form of f6f72d509axzd - mandatory
  * @param scriptOptions.defer - the script is fetched in parallel and evaluated after the document is parsed - defaults to false
  * @param scriptOptions.async - the script is fetched in parallel and evaluated asap - defaults to true
  * @param scriptOptions.integrity - the integrity hash of the contentsquare script - defaults to empty
