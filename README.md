@@ -47,35 +47,10 @@ Follow the steps below to use the Contentsquare tag on your website:
     
     The function will append the Contentsquare script to the document.head, and it will be fetched and executed accordingly based on the provided options.
 
-2. **Trigger Page View Tracking**: Once the Contentsquare script is included on your website, it automatically tracks page views by default. No additional code is required to track basic page views.
 
-3. **Track Custom Events**: Use the Contentsquare JavaScript API to track custom events on your website. For example, you can track clicks, form submissions, video interactions, and other user interactions. Refer to the Contentsquare documentation for details on how to use API.
+2. **Usage**: Please refer to the [Contentsquare documentation](https://docs.contentsquare.com/uxa-en/) for more information on using the Contentsquare tag.
 
 
-```html
-<!-- Example: Tracking a click event -->
-<script>
-    window._uxa = window._uxa || [];
-    window._uxa.push(['trackEvent', 'CLICK_EVENT_NAME']);
-</script>
-
-```
-
-4. **User Identification**: To associate user behavior with specific users, you can set the user ID using the `setUserId` method. This allows you to analyze the behavior of individual users in your analytics.
-
-```html
-<!-- Example: Setting the user ID -->
-<script>
-    window._uxa = window._uxa || [];
-    window._uxa.push(['setUserId', 'USER_ID']);
-</script>
-```
-
-5. **View Analytics Reports**: After implementing the Contentsquare tag on your website, you can log in to your Contentsquare account and access detailed analytics reports, including heatmaps, session replays, conversion funnels, and more.
-
-## Additional Configuration (Optional)
-
-The Contentsquare tag provides additional configuration options to customize your analytics tracking. Refer to the [Contentsquare documentation](https://docs.contentsquare.com/uxa-en/) for more information on configuring advanced settings, enabling specific modules, and handling specific use cases.
 
 ---
 
