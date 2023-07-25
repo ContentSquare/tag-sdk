@@ -98,9 +98,5 @@ Injects the Contentsquare script into the document.head.
 * This bootstrap mode will only be available for the modern “Contentsquare Deployment” mode (no support for Clicktale or any other legacy modes).
 * Some functions within the package will include inline descriptions/types for ease of use, but not all functionality is covered.  Please refer to the official [Contentsquare documentation](https://docs.contentsquare.com/uxa-en/) for more information on the available functions and their usage.
 
-## License
-
-This utility is open-source and distributed under the Copyrighted License. Please don't modify or redistribute the code without explicit permission from Contentsquare.
-
 ---
 
