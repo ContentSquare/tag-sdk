@@ -1,4 +1,4 @@
-import { injectContentsquareScript } from "../../../dist/esm";
+import { injectContentsquareScript } from "@contentsquare/tag-sdk";
 
 
 function sendTrackEvent(event) {
