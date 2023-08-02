@@ -25,7 +25,7 @@ npm install --save @contentsquare/tag-sdk
 
 Before using the Contentsquare tag, make sure you have the following:
 
-- **Contentsquare Account**: Sign up for a Contentsquare account on official website (https://www.contentsquare.com/) and obtain your client ID.
+- **Contentsquare Account**: Client id is required. To obtain client id please visit the official website (https://www.contentsquare.com/).  
 
 ### Steps to Use Contentsquare Tag
 
