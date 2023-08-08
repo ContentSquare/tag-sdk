@@ -54,4 +54,19 @@ describe("injectContentsquareScript", () => {
         expect(script.async).toBe(true);
         expect(script.integrity).toBe("");
     });
+
+    it('should attached TAG to head', () => {
+        const clientId = '123456789';
+        const scriptOptions = { clientId };
+        injectContentsquareScript(scriptOptions);
+        // Check if the script has been appended to document.head
+        const scriptTags = document.head.getElementsByTagName('script');
+        const contentsquareScript = scriptTags[scriptTags.length - 1];
+        expect(contentsquareScript).toBeTruthy();
+        expect(contentsquareScript.type).toBe('text/javascript');
+        expect(contentsquareScript.defer).toBe(false);
+        expect(contentsquareScript.async).toBe(true);
+        expect(contentsquareScript.crossOrigin).toBe('anonymous');
+        expect(contentsquareScript.src).toContain('https://t.contentsquare.net/uxa/' + clientId + '.js');
+    });
 });
