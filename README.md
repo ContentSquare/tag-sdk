@@ -37,7 +37,7 @@ Follow the steps below to use the Contentsquare tag on your website:
    // Replace 'YOUR_CS_LITE_SITE_ID' with your actual CS Lite site ID
    injectContentsquareScript({
      clientId: "YOUR_CLIENT_ID",
-     siteId: "YOUR_CS_LITE_SITE_ID", // Optional: only for CS Lite costumers, if set do not pass the clientId
+     siteId: "YOUR_CS_LITE_SITE_ID", // Optional: only for CS Lite customers, if set do not pass the clientId
      async: true, // Optional: Set to false to wait for script execution until after document parsing.
      defer: false, // Optional: Set to true to defer script execution after document parsing.
      integrity: "YOUR_SCRIPT_INTEGRITY_HASH", // Optional: Provide the integrity hash for script security (if required).
