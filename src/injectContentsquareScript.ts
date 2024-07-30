@@ -51,7 +51,7 @@ export function injectContentsquareScript(scriptOptions: ScriptOptions) {
       hjid: scriptOptions.siteId,
     };
     scriptElement.src =
-      "https://static.hj.contentsquare.net/c/cslite-" +
+      "https://static.hj.contentsquare.net/c/csq-" +
       scriptOptions.siteId +
       ".js";
   } else {
