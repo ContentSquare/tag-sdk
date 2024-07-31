@@ -21,7 +21,7 @@ npm install --save @contentsquare/tag-sdk
 
 Before using the Contentsquare tag, make sure you have one of the following:
 
-- **Contentsquare Account**: Client id is required (for enterprise accounts). To obtain a site id please visit the official website (https://www.contentsquare.com/).
+- **Contentsquare Account**: Client id is required (for enterprise accounts). To obtain a client id please visit the official website (https://www.contentsquare.com/).
 - **CS Lite Account**: Site id is required for CS Lite accounts.
 
 ### Steps to Use Contentsquare Tag
