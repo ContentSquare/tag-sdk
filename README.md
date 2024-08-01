@@ -21,7 +21,7 @@ npm install --save @contentsquare/tag-sdk
 
 Before using the Contentsquare tag, make sure you have one of the following:
 
-- **Contentsquare Account**: Client id is required (for enterprise accounts). To obtain a client id please visit the official website (https://www.contentsquare.com/).
+- **Contentsquare Account**: Client id is required. To obtain a client id please visit the official website (https://www.contentsquare.com/).
 - **CS Lite Account**: Site id is required for CS Lite accounts.
 
 ### Steps to Use Contentsquare Tag
@@ -36,8 +36,8 @@ Follow the steps below to use the Contentsquare tag on your website:
    // Replace 'YOUR_CLIENT_ID' with your actual Contentsquare client ID
    // Replace 'YOUR_CS_LITE_SITE_ID' with your actual CS Lite site ID
    injectContentsquareScript({
-     clientId: "YOUR_CLIENT_ID",
-     siteId: "YOUR_CS_LITE_SITE_ID", // Optional: only for CS Lite customers, if set do not pass the clientId
+     clientId: "YOUR_CLIENT_ID", // Required: Only for Contentsquare accounts, if set do not pass the siteId
+     siteId: "YOUR_CS_LITE_SITE_ID", // Required: Only for CS Lite accounts, if set do not pass the clientId
      async: true, // Optional: Set to false to wait for script execution until after document parsing.
      defer: false, // Optional: Set to true to defer script execution after document parsing.
      integrity: "YOUR_SCRIPT_INTEGRITY_HASH", // Optional: Provide the integrity hash for script security (if required).
@@ -57,7 +57,7 @@ Follow the steps below to use the Contentsquare tag on your website:
 Injects the Contentsquare script into the document.head.
 
 - `scriptOptions`: Options for injecting the script.
-  - `clientId` (string) - **(Required)** The client ID provided by Contentsquare in the form of 'a6f73d509'. **Only required for Contentsquare Enterprise accounts**.
+  - `clientId` (string) - **(Required)** The client ID provided by Contentsquare in the form of 'a6f73d509'. **Only required for Contentsquare accounts**.
   - `siteId` (string) - **(Required)** the CS Lite site ID in the form of 12345. **Only required for CS Lite accounts**.
   - `defer` (boolean) - (Optional) Indicates if the script is fetched in parallel and evaluated after the document is parsed. Defaults to `false`.
   - `async` (boolean) - (Optional) Indicates if the script is fetched in parallel and evaluated as soon as possible. Defaults to `true`.
