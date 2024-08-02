@@ -55,14 +55,12 @@ describe("injectContentsquareScript", () => {
     expect(script.integrity).toBe("");
   });
 
-  it("should inject the CS lite tag", () => {
+  it("should inject the csq bootstrap", () => {
     const script = injectContentsquareScript({
       siteId: "123",
     });
     expect(script.nodeName).toBe("SCRIPT");
-    expect(script.src).toBe(
-      "https://static.hj.contentsquare.net/c/cslite-123.js"
-    );
+    expect(script.src).toBe("https://static.hj.contentsquare.net/c/csq-123.js");
     expect(script.crossOrigin).toBe("anonymous");
     expect(script.defer).toBe(false);
     expect(script.async).toBe(true);
