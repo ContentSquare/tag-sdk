@@ -15,7 +15,7 @@ type ScriptOptions = {
 /**
  * Appends the contentsquare script to document.head
  * @param scriptOptions.clientId - the client id in the form of f6f72d509axzd - mandatory (if no site id is provided)
- * @param scriptOptions.siteId - the CS Lite site id in the form of 12345 - mandatory (if no client id id is provided)
+ * @param scriptOptions.siteId - the site id in the form of 12345 - mandatory (if no client id id is provided)
  * @param scriptOptions.defer - the script is fetched in parallel and evaluated after the document is parsed - defaults to false
  * @param scriptOptions.async - the script is fetched in parallel and evaluated asap - defaults to true
  * @param scriptOptions.integrity - the integrity hash of the contentsquare script - defaults to empty
