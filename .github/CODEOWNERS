@@ -14,3 +14,6 @@
 # ==============
 # Platform stuff
 # ==============
+
+# Protect .github/agents folder for GitHub Copilot agents
+/.github/agents/ @ContentSquare/tag
