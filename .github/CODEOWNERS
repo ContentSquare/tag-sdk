@@ -1,19 +1,16 @@
-*    @ContentSquare/tag
+* @ContentSquare/tag
 
 # ==============
 # Platform stuff
 # ==============
 # !!! Always keep it on the last lines of the CODEOWNERS file !!!
 
-# Deployfile gives rights to modify productions resources
-/Deployfile @ContentSquare/Platform
-
 # .github controls CODEOWNERS
-/.github/CODEOWNERS @ContentSquare/Platform
+/.github/CODEOWNERS @ContentSquare/devx
+
+# Protect .github/agents folder for GitHub Copilot agents
+/.github/agents/ @ContentSquare/tag
 
 # ==============
 # Platform stuff
 # ==============
-
-# Protect .github/agents folder for GitHub Copilot agents
-/.github/agents/ @ContentSquare/tag
