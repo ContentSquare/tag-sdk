@@ -1,4 +1,4 @@
-* @ContentSquare/tag
+* @ContentSquare/tag-core @ContentSquare/tag-functions
 
 # ==============
 # Platform stuff
@@ -9,7 +9,7 @@
 /.github/CODEOWNERS @ContentSquare/devx
 
 # Protect .github/agents folder for GitHub Copilot agents
-/.github/agents/ @ContentSquare/tag
+/.github/agents/ @ContentSquare/tag-core @ContentSquare/tag-functions
 
 # ==============
 # Platform stuff
